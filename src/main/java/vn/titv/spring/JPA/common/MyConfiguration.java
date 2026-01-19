@@ -16,7 +16,7 @@ public class MyConfiguration {
         return runner->{
             Scanner scanner = new Scanner(System.in);
             while(true) {
-                printMenu();
+                printMenus();
                 int choose = scanner.nextInt();
                 scanner.nextLine(); // Xử lý trôi lệnh (nuốt dòng new line sau khi nhập số)
 
@@ -42,7 +42,7 @@ public class MyConfiguration {
         };
     }
 
-    public void printMenu(){
+    public void printMenus(){
         System.out.println("========================================\n");
         System.out.println("MENU:\n" +
                 "1. Thêm sinh viên\n" +
