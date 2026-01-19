@@ -23,7 +23,9 @@ public class MyConfiguration {
                 if(choose == 1) {
                     // Gọi phương thức thêm sinh viên
                     // Lấy thông tin sinh viên
-                    System.out.println("Tôi là ai và đay la đau ");
+
+                    System.out.println("Moi ban dien thong tin fullname");
+
                     String ho_dem = scanner.nextLine();
 
                     System.out.println("Nhập tên như cặc: ");
