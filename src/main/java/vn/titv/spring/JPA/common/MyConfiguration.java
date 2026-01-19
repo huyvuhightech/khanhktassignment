@@ -26,7 +26,7 @@ public class MyConfiguration {
                     System.out.println("Nhập họ đệm hihi: ");
                     String ho_dem = scanner.nextLine();
 
-                    System.out.println("Nhập tên: ");
+                    System.out.println("Nhập tên như cặc: ");
                     String ten = scanner.nextLine();
 
                     System.out.println("Nhập email: ");
