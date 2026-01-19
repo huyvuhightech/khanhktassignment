@@ -23,7 +23,7 @@ public class MyConfiguration {
                 if(choose == 1) {
                     // Gọi phương thức thêm sinh viên
                     // Lấy thông tin sinh viên
-                    System.out.println("Nhập họ đệm hihi: ");
+                    System.out.println("Tôi là ai và đay la đau ");
                     String ho_dem = scanner.nextLine();
 
                     System.out.println("Nhập tên như cặc: ");
